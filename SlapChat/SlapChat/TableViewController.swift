@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    
+    var messages: Set<Message> = []
     var managedMessageObjects: [Message] = []
     let store: DataStore = DataStore()
     
